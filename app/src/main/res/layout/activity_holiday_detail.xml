@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="#FFB6C1"
+    tools:context=".view.activity.HolidayDetail">
+
+    <TextView
+        android:id="@+id/tvHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Holiday"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_width="410dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/line"
+        android:layout_below="@+id/tvHoliday"/>
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ivLine"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Tanggal"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvTanggal"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Use Notes to Plan your Holiday!"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
